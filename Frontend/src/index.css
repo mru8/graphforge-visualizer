@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.react-flow__node {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.2s ease;
+}
+
+.react-flow__handle {
+  width: 10px;
+  height: 10px;
+  background-color: #555;
+  border: 2px solid white;
+  transition: all 0.2s ease;
+}
+
+.react-flow__handle:hover{
+  background-color: #007bff;
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+  transform: scale(1.4);
+  cursor: crosshair;
+  border-color: #fff;
+}
+
+.submit-button {
+  background-color: #1a192b;
+  color: white;
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s active;
+  box-shadow: 0 4px 14px 0 rgba(0, 118, 255, 0.39);
+}
+
+.submit-button:hover{
+  background-color: #3b3a50;
+  transform: translateY(-1px);
+}
+
+.submit-button:active{
+  transform: translateY(1px);
+}
+
+.draggable-node {
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 80px;
+  background: white;
+  font-size: 14px;
+  color: #4a5568;
+  cursor: grab;
+}
+
+.draggable-node:hover{
+  border-color: #a0aec0;
+  background: #f7fafc;
+}
