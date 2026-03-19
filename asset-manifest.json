@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/mru8/graphforge-visualizer/static/css/main.9d2abcff.css",
-    "main.js": "/mru8/graphforge-visualizer/static/js/main.ffaeaa2e.js",
-    "index.html": "/mru8/graphforge-visualizer/index.html",
-    "main.9d2abcff.css.map": "/mru8/graphforge-visualizer/static/css/main.9d2abcff.css.map",
-    "main.ffaeaa2e.js.map": "/mru8/graphforge-visualizer/static/js/main.ffaeaa2e.js.map"
+    "main.css": "/graphforge-visualizer/static/css/main.9d2abcff.css",
+    "main.js": "/graphforge-visualizer/static/js/main.ffaeaa2e.js",
+    "index.html": "/graphforge-visualizer/index.html",
+    "main.9d2abcff.css.map": "/graphforge-visualizer/static/css/main.9d2abcff.css.map",
+    "main.ffaeaa2e.js.map": "/graphforge-visualizer/static/js/main.ffaeaa2e.js.map"
   },
   "entrypoints": [
     "static/css/main.9d2abcff.css",
