@@ -13,4 +13,7 @@ venv/
 .env
 
 # OS/Misc
-.DS_Store
+DS_Store
+
+Vectorshift submission/
+vectorshift backup/
