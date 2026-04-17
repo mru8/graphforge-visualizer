@@ -1,6 +1,6 @@
 # My Pipeline Builder Project 🚀
 
-Hi! This is my submission for the technical assessment. I built a flow-based pipeline editor where you can drag and drop nodes, connect them, and then check if the whole thing actually works!
+ I built a flow-based pipeline editor where you can drag and drop nodes, connect them, and then check if the whole thing actually works!
 
 ## 🛠️ What's inside?
 
